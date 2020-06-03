@@ -1,0 +1,25 @@
+/*reset*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, span{ margin: 0; padding: 0; }
+ul,li{ list-style: none; }
+a,img{ display: inline-block; *display: inline; }
+a{ text-decoration: none; }
+img{ vertical-align: top; border: none; }
+body{ -webkit-tap-highlight-color: transparent; }
+html,body{ width: 100%; height:100%; font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif; }
+body{ -wibkit-touch-callout: default; -webkit-user-select: none; }
+.isPc{
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    /* -webkit-transform-origin: 0 0; */
+    /* -ms-transform-origin: 0 0; */
+    /* transform-origin: 0 0; */
+    margin:0 auto;
+    left:0;
+    top:50%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
